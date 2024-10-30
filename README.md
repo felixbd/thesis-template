@@ -13,7 +13,7 @@ thesis template
 ## TOC
 
 - [**env setup**](https://github.com/felixbd/thesis-template?tab=readme-ov-file#1-env-setup)
-- [**build pdf**]()
+- [**build pdf**](https://github.com/felixbd/thesis-template?tab=readme-ov-file#2-build-pdf-html-txt)
 
 
 ## 1. env setup

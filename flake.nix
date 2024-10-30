@@ -18,6 +18,7 @@
             (python312.withPackages(ps: with ps; [
               scipy
             ]))
+            emacs
             gnuplot
             graphviz
           ];
