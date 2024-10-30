@@ -2,7 +2,18 @@ thesis template
 ===============
 
 > using `nix` dev env shells via `flakes`
+>
 > and `gnu/emacs`'s `org-mode` to generate `pdf, html, txt, tex`, etc.
+>
+> The use of `flakes` helps to ensure that everyone can build the final `pdf` and run the 
+> code of the repo with the exact same versions, ensuring
+> reproducibility and makes it easier for reviewers to check the calimity of the work.
+
+
+## TOC
+
+- [**env setup**](https://github.com/felixbd/thesis-template?tab=readme-ov-file#1-env-setup)
+- [**build pdf**]()
 
 
 ## 1. env setup
@@ -52,3 +63,18 @@ or if you want to enter the dev env shell without cloning the repository
 ```sh
 nix develop url ...  # TODO
 ```
+
+## 2 build pdf, html, txt
+
+use the `Makefile`
+
+```sh
+mkae build
+```
+
+and
+
+```sh
+make open
+```
+
